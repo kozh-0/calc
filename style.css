@@ -1,0 +1,84 @@
+* {box-sizing: border-box;}
+input {outline:none;}
+
+body {
+	margin: 0;
+	background: #333;
+	color: #fff;
+	font-size: 22px;
+}
+.container{
+	padding: 15px;
+	margin: 0 auto;
+	max-width: 920px;
+}
+.active, .parametrs, .sex__part {padding-top: 20px;}
+.active__class {
+	background: #228822 !important;
+	transition: 0.4s all;
+}
+
+
+
+.choose__sex {
+	display: flex;
+	align-items: center;
+}
+.calculating__block {
+	display: flex;
+	height: 70px;
+	width: 150px;
+	background: orange;
+	margin-right: 15px;
+	align-items: center;
+	justify-content: center;
+	margin-top: 15px;
+}
+
+
+
+.choose__parametres {
+	display: flex;
+	align-items: center;
+	margin-top: 15px;
+
+}
+.input__parametres {
+	height: 50px;
+	max-width: 120px;
+	margin-right: 15px;
+}
+
+
+
+
+.choose__active {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+
+
+
+.total__num{
+	padding-top: 70px;
+	text-align: right;
+	font-size: 50px;
+}
+
+
+
+@media screen and (max-width: 696px) {
+	.container {
+		width: 400px;
+	}
+
+	.total__num {
+		padding-top: 30px;
+    	text-align: center;
+	}
+	.input__parametres {
+		max-width: 105px;
+	}
+}

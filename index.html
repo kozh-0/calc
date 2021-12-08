@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Calc</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="calc">
+        <div class="container">
+            <div class="sex__part">
+                <div>Male or Female</div>
+                <div class="choose__sex">
+                    <div id='male' class="calculating__block active__class">Male</div>
+                    <div id='female' class="calculating__block">Female</div>
+                </div>
+            </div>
+
+            <div class="parametrs">
+                <div>Parametres</div>
+                <div class="choose__parametres">
+                    <input id='height' type="text" class="input__parametres" placeholder="Height">
+                    <input id='age' type="text" class="input__parametres" placeholder="Age">
+                    <input id='weight' type="text" class="input__parametres" placeholder="Weight">
+                </div>
+            </div>
+
+            <div class="active">
+                <div>Choose your activity style</div>
+                <div class="choose__active">
+                    <div data-ratio='1.2' id='low' class="calculating__block">Low</div>
+                    <div data-ratio='1.375' id='small' class="calculating__block active__class">Small</div>
+                    <div data-ratio='1.55' id='middle' class="calculating__block">Middle</div>
+                    <div data-ratio='1.725' id='high' class="calculating__block">High</div>
+                </div>
+            </div>
+
+            <div class="total">
+                <div class="total__num"><span>2700</span> ccal</div>
+            </div>
+
+
+
+        </div>
+    </section>
+
+
+
+
+	<script src="script.js"></script>
+</body>
+</html>
